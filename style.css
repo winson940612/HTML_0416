@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    background-color: #D6CCC2;
+    text-align: center;
+    padding: 25px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+nav{
+    background-color: #D5BDAF;
+    text-align: center;
+    font-size: 25px;
+    font-family: 標楷體;
+}
+
+nav a{
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+footer{
+    background-color: #b2967d;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+   background-color: #d8e2dc; 
+   padding: 20px 20px ;
+}
+
+section{
+    background-color: white;
+    border-radius: 50px;
+    /*border: #a4c3b2 5px solid;*/
+    margin: 10px 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name{
+    text-align: left; font-size: 50px; font-weight: bold; padding: 10px 20px;
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.about_myself{   
+    justify-content: center;   
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 500px 500px 500px;
+    gap:0px 20px;
+}
+
+.about_myself div{
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.about_text{
+    line-height: 2;
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.learning,.company{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.learning_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: 標楷體;
+    border: #8e9aaf 5px solid;
+    width: 400px;
+}
+
+.learning_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+
+
+.learning_name{
+    font-size: 30px;
+    font-family: 標楷體;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.learning_text{
+    line-height: 2;
+    padding: 10px;
+    font-family: 微軟正黑體;
+}
+
+.company_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: 標楷體;
+    border: #e6beae 5px solid;
+    width: 800px;
+}
+
+.company_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.compant_text{
+    line-height: 2;
+    padding: 10px;
+    font-family: 微軟正黑體;
+}
+
+.company_name{
+    font-size: 30px;
+    font-family: 標楷體;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.ability_title{
+    font-size: 30px; text-align: center;padding: 10px 0px; font-weight: bold;
+}
+
+div h3{
+    text-align: center;
+    font-family: 微軟正黑體;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+div p{
+    text-align: left;
+    line-height: 1.5;
+   
+}
+
+.ability_block{
+    width: auto;
+    padding:10px;
+    height: auto;
+    margin: 10px;
+    border: #000000 2px solid;
+}
+
+.ability_line{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.frame{
+    width: 200px;  
+    /*background-color: blue;*/
+    border: 2px solid black;
+    border-radius: 15px;
+    /*box-shadow: 4px 4px 10px rgb(61 61 59);*/
+}
+.line_90{
+    color:#000000;
+    width: 180px;
+    background-color: #a4c3b2;
+    animation: bar1 1s linear;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.line_75{
+    color:#000000;
+    width: 150px;
+    background-color: #a4c3b2;
+    animation: bar2 1s linear;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.line_80{
+    color:#000000;
+    width: 165px;
+    background-color: #a4c3b2;
+    animation: bar3 1s linear;
+    height: 20px;
+    border-radius: 15px;
+}
+.line_85{
+    color:#000000;
+    width: 172px;
+    background-color: #a4c3b2;
+    animation: bar4 1s linear;
+    height: 20px;
+    border-radius: 15px;
+}
+
+@keyframes bar1{
+    from{width:0px;}
+    to{width:180px;}
+}
+
+@keyframes bar2{
+    from{width:0px;}
+    to{width:150px;}
+}
+
+@keyframes bar3{
+    from{width:0px;}
+    to{width:165px;}
+}
+
+@keyframes bar4{
+    from{width:0px;}
+    to{width:172px;}
+}
